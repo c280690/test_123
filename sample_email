@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en-js">
+<html lang="ja">
 <head>
-  <title>Lilly | Digital</title>
+  <title>Lilly_mail_sample</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
@@ -96,8 +96,6 @@
 						<hr>
 					
 						<div style="display: block; overflow: auto; ">
-					
-					
 								<iframe  class="dynamic-iframe" width="602px" align="left" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"></iframe>
 					
 								<iframe  class="dynamic-iframe" width="375px" align="right" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"/></iframe>
