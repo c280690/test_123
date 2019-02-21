@@ -146,7 +146,7 @@
                                                         <td valign="top" style="width: 60%; padding-right: 3px;">
                                                           <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper">
                                                           <tr>
-                                                            <td style="padding: 20px 3px" class="stylingblock-content-wrapper camarker-inner">
+                                                            <td style="padding: 20px 3px" class="stylingblock-content-wrapper camarker-inner" align="right">
                                                               <span class="mail-title"><b><span style="color:#FFFFFF;">ADHD Expert Mail</span></b></span>
                                                             </td>
                                                           </tr>
