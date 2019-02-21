@@ -21,86 +21,69 @@
 	<section class="wrapper" style="max-width: 1085px;">
 		<div class="row" style="">
 			<div class="col">
-
-
-					<h3 style="font-weight: 400; padding: 16px 0px; margin: 0; line-height: 48px;">
-						<span style="text-transform: uppercase; margin-right: 8px;">
-							pp-in-us-0001
-							
-						</span>
-					
-					
-						<span style="color: #a59d95; font-weight: 300; margin-left: 8px; text-transform: capitalize;">
-							none
-						</span>
-						<span style="text-align: right; float: right;">
-					
-							<a href="/" style="">
-								<img src="/assets/lilly-logo-footer.png" srcset="/assets/lilly-logo-footer@2x.svg 2x" height="40">
-							</a>
-					
-						</span>
-					</h3>
-					
-					<hr>
-					
+				<h3 style="font-weight: 400; padding: 16px 0px; margin: 0; line-height: 48px;">
+					<span style="text-transform: uppercase; margin-right: 8px;">
+						pp-in-us-0001		
+					</span>
+					<span style="color: #a59d95; font-weight: 300; margin-left: 8px; text-transform: capitalize;">
+						none
+					</span>
+					<span style="text-align: right; float: right;">
+						<a href="/" style="">
+							<img src="/assets/lilly-logo-footer.png" srcset="/assets/lilly-logo-footer@2x.svg 2x" height="40">
+						</a>
+					</span>
+				</h3>
+				<hr>	
 					<style>
-					 ol {
-					   list-style: none;
-					   counter-reset: item;
-					 }
-					 li {
-					   counter-increment: item;
-					 }
-					 li:before {
-					   margin-right: 4px;
-					   content: counter(item) ".";
-					   color: #b9b9b9;
-					   width: 1.6em;
-					   text-align: center;
-					   display: inline-block;
-					 }
-					</style>
-					
-					<p style="margin-bottom: 0;">
-						<strong>To: </strong>
-							&lt;Physician@email.com (One email address only)&gt;
-						</p>
-					<p style="margin-bottom: 0;">
+					  ol {
+					     list-style: none;
+					     counter-reset: item;
+					  }
+					  li {
+					     counter-increment: item;
+					  }
+					  li:before {
+					     margin-right: 4px;
+					     content: counter(item) ".";
+					     color: #b9b9b9;
+					     width: 1.6em;
+					     text-align: center;
+					     display: inline-block;
+					  }
+					  </style>
+					  <p style="margin-bottom: 0;">
+					  	  <strong>To: </strong>
+					 	 	&lt;Physician@email.com (One email address only)&gt;
+					  </p>
+					  <p style="margin-bottom: 0;">
 						<strong>From Options: </strong>
-					</p>
-						<ol style="margin-bottom: 0;">
-								<li>[no default from address]</li>
-						</ol>
-					<p style="margin-bottom: 0;">
+					  </p>
+					  <ol style="margin-bottom: 0;">
+						<li>[no default from address]</li>
+					  </ol>
+					  <p style="margin-bottom: 0;">
 						<strong>Date: </strong>&lt;date&gt;<br/>
-					</p>
+					  </p>
+					  <p style="margin-bottom: 0;">
+						<strong>Subject Line Options:</strong>
+					  </p>
+					  <ol style="margin-bottom: 0;">
+						<li>placeholder_subject_line</li>
+					  </ol>
+					  <p style="margin-bottom: 0;">
+						<strong>Preheader Options:</strong>
+					  </p>
+					  <ol style="margin-bottom: 0;">
+						<li>placeholder_preview_text</li>
+					  </ol>
 					
-					
-						<p style="margin-bottom: 0;">
-							<strong>Subject Line Options:</strong>
-						</p>
-						<ol style="margin-bottom: 0;">
-								<li>placeholder_subject_line</li>
-						</ol>
-					
-						<p style="margin-bottom: 0;">
-							<strong>Preheader Options:</strong>
-						</p>
-						<ol style="margin-bottom: 0;">
-								<li>placeholder_preview_text</li>
-						</ol>
-					
-					</ol>						<h3 style="color: #a59d95; font-weight: 300; margin: 0; padding: 16px 0;">Preview</h3>
-					
+					</ol>
+					<h3 style="color: #a59d95; font-weight: 300; margin: 0; padding: 16px 0;">Preview</h3>
 						<hr>
-					
 						<div style="display: block; overflow: auto; ">
-								<iframe  class="dynamic-iframe" width="602px" align="left" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"></iframe>
-					
-								<iframe  class="dynamic-iframe" width="375px" align="right" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"/></iframe>
-					
-							
+							<iframe  class="dynamic-iframe" width="602px" align="left" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"></iframe>
+							<iframe  class="dynamic-iframe" width="375px" align="right" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"/></iframe>
 						</div>
 
 
@@ -111,10 +94,9 @@
 					<span style="">
 					</span>
 					&copy; Lilly USA, LLC 2018. All rights reserved.
-				
-						<span style="text-align: right; float: right;">
-							Last modified Thu Feb 21 2019 00:59:58 
-						</span>
+					<span style="text-align: right; float: right;">
+						Last modified Thu Feb 21 2019 00:59:58 
+					</span>
 				</p>
 			</div>
 		</div>
