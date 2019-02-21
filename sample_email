@@ -4,109 +4,43 @@
   <title>Lilly_mail_sample</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/lilly-design-system.min.css">
-  <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-  <style>
-    @media only screen and (max-width: 768px) { .hide-on-mobile { display: none; } }
-  </style>
 </head>
 <body>
-<div>
-	<section class="wrapper" style="max-width: 1085px;">
-		<div class="row" style="">
-			<div class="col">
-				<h3 style="font-weight: 400; padding: 16px 0px; margin: 0; line-height: 48px;">
-					<span style="text-transform: uppercase; margin-right: 8px;">
-						pp-in-us-0001		
-					</span>
-					<span style="color: #a59d95; font-weight: 300; margin-left: 8px; text-transform: capitalize;">
-						none
-					</span>
-					<span style="text-align: right; float: right;">
-						<a href="/" style="">
-							<img src="/assets/lilly-logo-footer.png" srcset="/assets/lilly-logo-footer@2x.svg 2x" height="40">
-						</a>
-					</span>
-				</h3>
-				<hr>	
-					<style>
-					  ol {
-					     list-style: none;
-					     counter-reset: item;
-					  }
-					  li {
-					     counter-increment: item;
-					  }
-					  li:before {
-					     margin-right: 4px;
-					     content: counter(item) ".";
-					     color: #b9b9b9;
-					     width: 1.6em;
-					     text-align: center;
-					     display: inline-block;
-					  }
-					  </style>
-					  <p style="margin-bottom: 0;">
-					  	  <strong>To: </strong>
-					 	 	&lt;Physician@email.com (One email address only)&gt;
-					  </p>
-					  <p style="margin-bottom: 0;">
-						<strong>From Options: </strong>
-					  </p>
-					  <ol style="margin-bottom: 0;">
-						<li>[no default from address]</li>
-					  </ol>
-					  <p style="margin-bottom: 0;">
-						<strong>Date: </strong>&lt;date&gt;<br/>
-					  </p>
-					  <p style="margin-bottom: 0;">
-						<strong>Subject Line Options:</strong>
-					  </p>
-					  <ol style="margin-bottom: 0;">
-						<li>placeholder_subject_line</li>
-					  </ol>
-					  <p style="margin-bottom: 0;">
-						<strong>Preheader Options:</strong>
-					  </p>
-					  <ol style="margin-bottom: 0;">
-						<li>placeholder_preview_text</li>
-					  </ol>
-					
-					</ol>
-					<h3 style="color: #a59d95; font-weight: 300; margin: 0; padding: 16px 0;">Preview</h3>
-						<hr>
-						<div style="display: block; overflow: auto; ">
-							<iframe  class="dynamic-iframe" width="602px" align="left" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"></iframe>
-							<iframe  class="dynamic-iframe" width="375px" align="right" border="0" src="/remote/pp-in-us-0001/email/develop/none.html" style="margin: 24px 24px 40px 24px; border: 0; box-shadow: 0 0px 8px 0 rgba(149,144,144,0.7);"/></iframe>
-						</div>
 
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="10"></td>
+    <td align="center">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;">
+        <tr><td height="20"></td></tr>
+        <!--内容ここから-->
+        <tr>
+          <td><img src="https://placehold.jp/640x300.png" alt="" width="100%"></td>
+        </tr>
+        <tr><td height="20"></td></tr>
+        <tr>
+          <td style="font-size:14px;">吾輩（わがはい）は猫である。名前はまだ無い。どこで生れたかとんと見当（けんとう）がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</td>
+        </tr>
+        <tr><td height="20"></td></tr>
+        <tr>
+          <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="25%"><img src="https://placehold.jp/300x300.png" width="100%" alt=""></td>
+                <td width="2%"></td>
+                <td width="73%" valign="middle" style="font-size:14px;">2カラムサンプル。縦方向の中央寄せは「td valign="middle"」で
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--内容ここまで-->
+        <tr><td height="20"></td></tr>
+      </table>
+    </td>
+    <td width="10"></td>
+  </tr>
+</table>
 
-				<p style="color: #a59d95; padding: 24px 0px;">
-					<span style="text-transform: uppercase;">
-						pp-in-us-0001
-					</span>
-					<span style="">
-					</span>
-					&copy; Lilly USA, LLC 2018. All rights reserved.
-					<span style="text-align: right; float: right;">
-						Last modified Thu Feb 21 2019 00:59:58 
-					</span>
-				</p>
-			</div>
-		</div>
-	</section>
-</div>
-<script src="/js/preview.js" charset="utf-8"></script>
-<script src="/js/lilly.js" type="text/javascript"></script>
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
 </body>
 </html>
