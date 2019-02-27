@@ -1,45 +1,423 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <title>Lilly_mail_sample</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>
-<body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+    <style type="text/css">
+      @media screen and (max-width: 480px) {
+        .container {width: 100% !important; }
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px;float:left; clear:both; }
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+      
+      span.mail-title{ font-size: 22px; }
+      
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#000000;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+%%[VAR @SubKey,@SubKey_HUSH SET @SubKey =[SubscriberKey] SET @SubKey_HUSH =md5(@SubKey) UpsertDE('W4_JP_2018_iCX_STRC_de','1','SubscriberKey',@SubKey,'SubKey_HUSH',@SubKey_HUSH)]%%
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="10"></td>
-    <td align="center">
-      <table width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width:640px;">
-        <tr><td height="20"></td></tr>
-        <!--内容ここから-->
-        <tr>
-          <td><img src="https://placehold.jp/300x200.png" alt="" width="100%"></td>
-        </tr>
-        <tr><td height="20"></td></tr>
-        <tr>
-          <td style="font-size:16px;">テスト文字</td>
-        </tr>
-        <tr><td height="20"></td></tr>
-        <tr>
-          <td>
-            <table width="100%" border="0" cellpadding="0" cellspacing="0">
-              <tr>
-                <td width="25%"><img src="https://placehold.jp/350x150.png" width="100%" alt=""></td>
-                <td width="2%"></td>
-                <td width="73%" valign="middle" style="font-size:14px;">○●◎</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <!--内容ここまで-->
-        <tr><td height="20"></td></tr>
-      </table>
-    </td>
-    <td width="10"></td>
-  </tr>
-</table>
+  </head>
+  <body bgcolor="#ffffff" text="#000000" style="background-color: #ffffff; color: #000000; padding: 0px; -webkit-text-size-adjust:none; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header"/>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <!--Outlook用幅指定ここから1 -->
+          <!--[if gte mso 9]><center><table width="600" style="margin: 0 auto;"><tr><td><![endif]-->
+          <!--Outlook用幅指定ここまで1 -->
+          <table cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 600px;" class="container" align="center">
+            <tr>
+              <td>
+                <table class="tb_properties border_style" style="background-color:#FFFFFF;" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <!-- added padding here -->
+                          <td class="content_padding" style="">
+                            <!-- end of comment -->
 
-</body>
+<!--Title_Start-->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr> <!-- top slot -->
+                                <td align="center" class="header" valign="top">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                          <td align="left" valign="top">
+                                            <table cellspacing="0" cellpadding="0" style="width:100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="responsive-td" valign="top" style="width: 100%;">
+                                                    <table cellpadding="0" cellspacing="0" width="100%" style="background-color: #8B9AC2; min-width: 100%; " class="stylingblock-content-wrapper">
+                                                      <tr>
+                                                        <td style="padding: 5px; " class="stylingblock-content-wrapper camarker-inner">
+                                                          <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                                            <tr>
+                                                              <td>
+                                                                <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                                                  <tr>
+                                                                    <td valign="top" style="width: 30%;">
+                                                                      <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper">
+                                                                        <tr>
+                                                                          <td style="padding: 0px 0px 0px 20px; " class="stylingblock-content-wrapper camarker-inner">
+                                                                            <table width="100%" cellspacing="0" cellpadding="0">
+                                                                              <tr>
+                                                                                <td align="center">
+                                                                                  <img data-assetid="46170" src="http://image.mc.lilly.com/lib/fe9f12747765047d76/m/1/e8d89a8c-8714-4ab2-87f8-f9941f002667.jpg" width="226" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;" height="80">
+                                                                                </td>
+                                                                              </tr>
+                                                                            </table>
+                                                                          </td>
+                                                                        </tr>
+                                                                      </table>
+                                                                    </td>
+                                                                    <td valign="top" style="width: 60%; padding-right: 3px;">
+                                                                      <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper">
+                                                                        <tr>
+                                                                          <td style="padding: 20px 3px" class="stylingblock-content-wrapper camarker-inner" align="right">
+                                                                            <span class="mail-title"><b><span style="color:#FFFFFF;">ADHD Expert Mail</span></b></span>
+                                                                          </td>
+                                                                        </tr>
+                                                                      </table>
+                                                                    </td>
+                                                                  </tr>
+                                                                </table>
+                                                              </td>
+                                                            </tr>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+<!--Title_End-->
+
+<!--ReadText_Start-->
+                                  <table cellpadding="0" cellspacing="0" width="100%" class="stylingblock-content-wrapper" style="min-width: 100%; ">
+                                    <tr>
+                                      <td class="stylingblock-content-margin-cell" style="padding: 0px 0px 20px; ">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper">
+                                          <tr>
+                                            <td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner">
+                                              <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                                <tr>
+                                                  <td>
+                                                    <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                                      <tr>
+                                                        <td valign="top" class="responsive-td" style="width: 60%; padding-right: 3px;">
+                                                          <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper">
+                                                            <tr>
+                                                              <td style="padding: 11px 0px 0px 3px;" class="stylingblock-content-wrapper camarker-inner">
+                                                                <span style="font-size:18px; font-weight:700">%%Customer_Name%% 先生御侍史</span>
+                                                                <br><br>この度は、%%LastName%% 先生のご興味に少しでも沿えることを目指してコンテンツを配信してまいりましたが、いかがでしたでしょうか。以下が、今シリーズ最後のコンテンツになりますので、ご多忙の折、誠に恐れ入りますが、ぜひご視聴いただければ幸いです。<br><br>なお、次のシリーズは、来月より配信させていただく予定です。引き続きご高配のほど、お願い申し上げます。
+                                                              </td>
+                                                            </tr>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+<!--ReadText_End-->
+
+<!--MovieColumn_Start-->
+                                  <table cellpadding="0" cellspacing="0" width="100%" style="background-color: #E8EBF3; min-width: 100%; " class="stylingblock-content-wrapper">
+                                    <tr>
+                                      <td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner">
+                                        <table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                          <tr>
+                                            <td valign="top" class="responsive-td" style="width: 100%; padding-bottom: 0px;">
+                                              <table cellpadding="0" cellspacing="0" width="100%" style="background-color: #001F38; min-width: 100%; " class="stylingblock-content-wrapper">
+                                                <tr>
+                                                  <td style="padding: 10px 0px 10px 10px; " class="stylingblock-content-wrapper camarker-inner" align="center">
+                                                    <span style="font-size:16px; font-weight:700; color:#FFFFFF;text-decoration:none;">私が考えるADHD治療におけるポイント</span>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+
+<!--MovieThumbnail_Start-->
+                                    <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; padding:20px">
+                                      <tr>
+                                        <td align="center">
+                                          <img data-assetid="52559" src="http://image.mc.lilly.com/lib/fe9f12747765047d76/m/1/88fbbdb4-1178-47c9-ae45-7bd01d569a13.png" style="display: block; padding: 0px; text-align: center; height: 60%; width: 60%; border: 0px;">
+                                        </td> 
+                                      </tr>
+                                    </table>
+<!--MovieThumbnail_End-->
+
+<!--Link_Button_move_Start-->
+                                    <table cellspacing="0" cellpadding="0" width="40%" height="100%" align="center" style="padding-bottom:10px">
+                                      <tr>
+                                        <td bordercolor="#ffffff" bgcolor="#ffd000" align=center style="border-radius:30px; padding:10px;">
+                                          <a href="URLを記述" style="color:#ffffff; text-decoration:none; font-size:17px; font-weight:700;">
+                                            動画を見る（4分21秒）</a>
+                                        </td>
+                                      </tr>
+                                    </table>
+<!--Link_Button_move_End-->
+
+                                    <tr>
+                                      <td>
+                                        <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                          <tr>
+                                            <td valign="top" class="responsive-td" style="width: 100%; padding-top: 0px;">
+                                              <table cellpadding="0" cellspacing="0" width="100%" style="background-color: #FFFFFF; min-width: 100%; " class="stylingblock-content-wrapper">
+                                                <tr>
+                                                  <td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner">
+                                                    ADHD治療の考え方／ストラテラの特徴／治療効果判定のポイントなど、より良い治療アウトカムを目指した対応について、臨床現場に則した実践方法をご紹介いただきます。<br><br>（ご解説：パークサイドこころの発達クリニック 原田剛志先生）
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+<!--MovieColumn_End-->
+
+<!--MaterialRequest_Start-->
+                            <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%;" class="stylingblock-content-wrapper">
+                              <tr>
+                                <td style="padding: 10px 10px 0px 10px;" class="stylingblock-content-wrapper camarker-inner">
+                                  <div style="text-align: center;border-top:2px solid #001f38;padding-top:20px;">
+                                    <span style="font-size:17px;"><b>New! 各種サポート資材のオンライン請求が可能になりました。</b></span>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="font-size: 20px; line-height: 1;">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 0px 10px;" class="stylingblock-content-wrapper camarker-inner">
+                                  <div style="text-align: center;">
+                                    <span style="font-size:16px;"><b><a alias="サービス概要（Lillymedical.jp）" conversion="false" data-linkto="https://" href="https://www.lillymedical.jp/jp/ja/neuroscience/strattera/index.aspx?utm_source=iCX&utm_medium=email&utm_campaign=2018_1_STRiCX_W4" style=" color:#2F75b5; text-decoration:underline;" title="サービス概要（Lillymedical.jp）">サービス概要（Lillymedical.jp）</a></b></span>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="font-size: 20px; line-height: 1;">&nbsp;</td>
+                              </tr>
+                            </table>
+                            <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; margin-bottom: 0px;" class="stylingblock-content-wrapper">
+                              <tbody>
+                                <tr>
+                                  <td width="10" style="font-size: 0; line-height: 1;"></td>
+                                  <td valign="top" style="width: 100%;font-size: 14px; line-height: 1.5; padding: 5px; color:#000000;">・　資材ネット発注
+                                  <br>　　患者サポート資材から内溶液専用容器等の製品関連資材までいつでも<br>　　簡単に発注いただけます</td>
+                                </tr>
+                                <tr>
+                                  <td width="10" style="font-size: 0; line-height: 1;"></td>
+                                  <td valign="top" style="width: 100%;font-size: 14px; line-height: 1.5; padding: 5px; color:#000000;">・　FAQ
+                                  <br>　　お問い合わせ窓口によくあるご質問とその回答を掲載しています</td>
+                                </tr>
+                                <tr>
+                                  <td width="10" style="font-size: 0; line-height: 1;"></td>
+                                  <td valign="top" style="width: 100%;font-size: 14px; line-height: 1.5; padding: 5px; color:#000000;">・　お問い合わせ窓口
+                                  <br>　　チャット/メール/電話などの各種方法で、その他製品に関する<br>　　お問い合わせにお答えします</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+<!--Link_Button_material_Start-->
+                            <table border="2" bordercolor="#ffd000" cellspacing="0" cellpadding="0" width="45%" height="45%" align="center" style="border-radius:30px">
+                              <tr>
+                                <td bgcolor="#ffffff" align=center style="border-radius:30px; padding:10px;">
+                                  <a href="https://account.lilly.co.jp/login?y=mdrs&return=https%3A%2F%2Fmdrs.lilly.co.jp%2FOrderingMaterialSelect&utm_source=iCX&utm_medium=email&utm_campaign=2018_1_STRiCX_W4" style="color:#ffd000; text-decoration:none; font-size:17px; width:100%; font-weight:700; padding:20px">
+                                   資材ネット発注をする</a>
+                                </td>
+                              </tr>
+                            </table>
+<!--Link_Button_material_End-->
+
+                            <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%;" class="stylingblock-content-wrapper">
+                              <tr>
+                                <td style="padding: 10px 10px;" class="stylingblock-content-wrapper camarker-inner">
+                                  <div style="text-align: center;">
+                                      <span style="font-size:14px;">（ログイン後、適正使用資材や患者様向け資材をいつでもネット発注いただけます）</span><br><br>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+
+<!--MaterialRequest_End-->
+
+
+
+<!--Footer_Start-->
+  <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; margin-top: 10px;" class="stylingblock-content-wrapper">
+    <tr>
+      <td class="stylingblock-content-wrapper camarker-inner">
+        <table cellpadding="0" cellspacing="0" width="100%" style="background-color: #A4A4A4; min-width: 100%;" class="stylingblock-content-wrapper">
+          <tr>
+            <td style="padding: 10px;" class="stylingblock-content-wrapper camarker-inner">
+              <span style="font-size:13px;">
+                <span style="color:#FFFFFF;">本メールでは、イーライリリーの疾患に関する情報、当社製品やプロモーション資材を含むサービスに関して医療関係者向けに提供しています。<br>
+                  著作権等により保護されており、メールの送付宛先の方に対し提供しておりますので、複製や転送をしないでください。<br>
+                  本メールへの返信はしないよう宜しくお願い申し上げます。<br><br>
+                  医療情報についてのお問い合わせは
+                    <a alias="医療情報についてのお問い合わせはこちら" conversion="false" data-linkto="http://" href="https://www.lillymedical.jp/jp/ja/contact/index.aspx?utm_source=iCX&utm_medium=sfmc_email&utm_campaign=2018_1_STRiCX" style="color:#272727;text-decoration:underline;" title="医療情報についてのお問い合わせはこちら">こちら
+                    </a>からお問い合わせください。<br><br>本メールを配信停止する場合は
+                    <a alias="本メールを配信停止する場合はこちら。" conversion="false" data-linkto="http://" href="https://ccp.lilly.com/PC/index.html#/links/uss?referrer=e734fa2a-6918-415b-b9a5-dcca62fc6029&GccpCustomerId=%%GCCP_encryption_token%%&CommunicationAddress=%%emailaddr%%&ExternalIdentifierIdn=%%jobid%%" style="color:#272727;text-decoration:underline;" title="本メールを配信停止する場合はこちら。">こちら。</a>
+                </span>
+              </span><br><br>
+              <span style="color: rgb(255, 255, 255); font-size: 13px;">%%Member_Busname%%
+              </span><br>
+              <span style="font-size:13px;">
+                <span style="color:#FFFFFF;">〒%%Member_PostalCode%% %%Member_State%%%%Member_City%%%%Member_Addr%%<br>
+                  <span style="color: rgb(255, 255, 255); font-size: 13px;">
+                    <a alias="ホームページ" conversion="false" data-linkto="http://" href="https://www.lilly.co.jp/" style="color:#272727;text-decoration:underline;" title="ホームページ">https://www.lilly.co.jp/
+                    </a>
+                  </span><br><br>
+                  「効能・効果」、「用法・用量」、「使用上の注意」、「警告・禁忌を含む使用上の 注意」、「副作用ならびに臨床検査値異常の発現頻度」等については、
+                   <a alias="添付文書へのリンクはこちら" conversion="false" data-linkto="https://" href="https://www.lillymedical.jp/jp/ja/neuroscience/strattera/sub_index.aspx" style="color:#272727;text-decoration:underline;" title="添付文書へのリンクはこちら">添付文書
+                   </a>をご参照ください。
+                </span>
+              </span><br>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 10px;">
+              <span style="font-size:13px; color:#FFFFFF;">EA-STR-MM026(R0)←承認された番号に変更 2019年xx月 </span>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 10px;">
+              <span style="font-size:13px; color:#FFFFFF;">Copyright © 2019 Eli Lilly Japan K.K. All rights reserved.
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td align="right" style="padding: 0 20px 20px 0">
+              <img data-assetid="46168" height="44" src="http://image.mc.lilly.com/lib/fe9f12747765047d76/m/1/a7af0299-937d-4bcf-9f51-5f09ba80f85b.png" style="padding: 0px; text-align: center; height: 44px; width: 80px; border: 0px;" width="80" alt="">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!--Footer_End-->
+
+
+                                               </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--Outlook用幅指定ここから2 -->
+          <!--[if gte mso 9]></td></tr></table></center><![endif]-->
+          <!--Outlook用幅指定ここまで2 -->
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
